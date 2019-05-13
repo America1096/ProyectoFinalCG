@@ -1,0 +1,62 @@
+# Blender MTL File: 'None'
+# Material Count: 5
+
+newmtl Skin
+Ns 94.117647
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 0.700000
+illum 2
+map_Kd textures\v2.0\skin-t3.tga
+map_Bump textures\\Skin-n.tga
+map_Ks textures\\skin-n2.tga
+
+newmtl eyes
+Ns 749.019608
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.122500 0.041448
+Ks 0.810680 0.810680 0.810680
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\v2.0\eyes-t.tga
+map_Ke textures\\v2.0\\eyes-t.tga
+
+newmtl mouth
+Ns 682.352941
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.266990 0.061450 0.075439
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\mouth-t.jpg
+map_Bump textures\\mouth-b.tif
+
+newmtl teeth
+Ns 584.313725
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.645631 0.196299 0.082555
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\teeth-t.tga
+
+newmtl tongue
+Ns 700.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.402913 0.132963 0.115333
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd textures\tongue-t.jpg
+map_Bump textures\\tongue-b.tif
