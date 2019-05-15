@@ -41,6 +41,14 @@ void Camera::keyControl(bool* keys, GLfloat deltaTime)
 	}
 }
 
+void Camera::recorrido(glm::vec3 pos, GLfloat deltaTime) {
+	GLfloat velocity = moveSpeed * deltaTime;
+
+	position.x = pos[0];
+	position.y = pos[1];
+	position.z = pos[2];
+
+}
 void Camera::mouseControl(GLfloat xChange, GLfloat yChange)
 {
 	xChange *= turnSpeed;
@@ -61,6 +69,7 @@ void Camera::mouseControl(GLfloat xChange, GLfloat yChange)
 
 	update();
 }
+
 
 glm::mat4 Camera::calculateViewMatrix()
 {
@@ -88,7 +97,6 @@ void Camera::update()
 	right = glm::normalize(glm::cross(front, worldUp));
 	up = glm::normalize(glm::cross(right, front));
 }
-
 
 Camera::~Camera()
 {
